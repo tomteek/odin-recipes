@@ -1,0 +1,144 @@
+* {
+    /* outline: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: darkslateblue;
+    min-height: 100%;    
+    position: relative;
+}
+
+.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: chocolate;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: inline-block;
+    border: 2px solid orange;
+    width: 650px;
+    padding: 20px;
+    background-color: #cdb4db;
+}
+
+.colin {
+    vertical-align: middle;
+    height: 200px;
+}
+
+.mainlinks {
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    padding-left: 20px;
+}
+
+img {
+    border: 3px solid pink;
+}
+
+.food {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    /* margin-top: 30px; */
+    /* padding: 0; */
+    font-size: 16px;
+}
+
+button {
+    font-size: 25px;
+    padding: 15px;
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 10px;
+    display: table;
+	table-layout: fixed;
+    
+}
+
+a {
+    color: #3d405b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+ol {
+    list-style-position: inside;
+    width: 1000px;
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+
+ol li {
+    margin: 10px 0;
+}
+
+/* h2 {
+    padding-top: 30px;
+} */
+
+
+.back {
+    display: block;
+    font-size: 25px;
+    /* margin-top: 30px; */
+    padding: 25px;
+    color: orange;
+}
+
+.desinfo {
+    width: 700px;
+    margin: 20px auto;
+
+    /* background-color: greenyellow; */
+
+}
+
+.des {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    width: 45%;
+    height: 190px;
+    background-color: crimson;
+    margin-right: 10px;
+}
+
+.info {
+    display: inline-block;
+    width: 45%;
+    padding-top: 10px;
+    height: 190px;
+    background-color: coral;
+    /* padding-top: 40px; */
+    /* background-color: grey; */
+    /* vertical-align: top; */
+}
